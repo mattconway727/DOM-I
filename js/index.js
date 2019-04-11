@@ -53,3 +53,14 @@ ctaImage.setAttribute("src", siteContent.cta["img-src"]);
 
 let middleImage = document.getElementById("middle-img");
 middleImage.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+
+// Nav links ***
+
+let navLinks = document.querySelectorAll("nav a");
+for (let i = 0; i < navLinks.length; i++) {
+  // navLinks[i].textContent = siteContent.nav["nav-item-" + (i + 1)];
+  navLinks[i].textContent = siteContent.nav[`nav-item-${i + 1}`];
+}
+
+// change color of nav links to green
+navLinks.forEach(navlink => (navlink.style.color = "green"));
