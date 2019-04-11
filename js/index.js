@@ -64,3 +64,20 @@ for (let i = 0; i < navLinks.length; i++) {
 
 // change color of nav links to green
 navLinks.forEach(navlink => (navlink.style.color = "green"));
+
+// CTA ***
+
+// h1
+let h1 = document.querySelector("h1");
+
+let dom = document.createTextNode("DOM");
+let is = document.createTextNode("IS");
+let awesome = document.createTextNode("AWESOME");
+let brElem = document.createElement("br");
+let brElem2 = document.createElement("br");
+
+h1.appendChild(dom);
+h1.appendChild(brElem2);
+h1.appendChild(is);
+h1.appendChild(brElem);
+h1.appendChild(awesome);
