@@ -96,3 +96,11 @@ titles[0].textContent = siteContent["main-content"]["features-h4"];
 info[0].textContent = siteContent["main-content"]["features-content"];
 titles[1].textContent = siteContent["main-content"]["about-h4"];
 info[1].textContent = siteContent["main-content"]["about-content"];
+
+// Bottom Content
+titles[2].textContent = siteContent["main-content"]["services-h4"];
+info[2].textContent = siteContent["main-content"]["services-content"];
+titles[3].textContent = siteContent["main-content"]["product-h4"];
+info[3].textContent = siteContent["main-content"]["product-content"];
+titles[4].textContent = siteContent["main-content"]["vision-h4"];
+info[4].textContent = siteContent["main-content"]["vision-content"];
