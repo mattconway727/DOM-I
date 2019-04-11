@@ -85,3 +85,14 @@ h1.appendChild(awesome);
 // Button
 let btn = document.querySelector("button");
 btn.textContent = "Get Started";
+
+// Main Content ***
+
+// Top Content
+let titles = document.getElementsByTagName("h4");
+let info = document.getElementsByTagName("p");
+
+titles[0].textContent = siteContent["main-content"]["features-h4"];
+info[0].textContent = siteContent["main-content"]["features-content"];
+titles[1].textContent = siteContent["main-content"]["about-h4"];
+info[1].textContent = siteContent["main-content"]["about-content"];
