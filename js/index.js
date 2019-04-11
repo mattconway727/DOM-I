@@ -81,3 +81,7 @@ h1.appendChild(brElem2);
 h1.appendChild(is);
 h1.appendChild(brElem);
 h1.appendChild(awesome);
+
+// Button
+let btn = document.querySelector("button");
+btn.textContent = "Get Started";
