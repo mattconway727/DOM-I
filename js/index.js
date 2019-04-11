@@ -104,3 +104,24 @@ titles[3].textContent = siteContent["main-content"]["product-h4"];
 info[3].textContent = siteContent["main-content"]["product-content"];
 titles[4].textContent = siteContent["main-content"]["vision-h4"];
 info[4].textContent = siteContent["main-content"]["vision-content"];
+
+// Footer
+titles[5].textContent = siteContent["contact"]["contact-h4"];
+info[5].textContent = siteContent["contact"]["address"];
+info[6].textContent = siteContent["contact"]["phone"];
+info[7].textContent = siteContent["contact"]["email"];
+
+info[8].textContent = siteContent["footer"]["copyright"];
+
+let nav = document.querySelector("nav");
+let a = document.createElement("a");
+let b = document.createElement("b");
+
+nav.append(b);
+nav.prepend(a);
+
+a.setAttribute("href", "#");
+a.textContent = "Lambda";
+
+b.setAttribute("href", "#");
+b.textContent = "School";
